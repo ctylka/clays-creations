@@ -1,0 +1,21 @@
+/* This targets the entire background of the web page */
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* This targets all level-1 headings */
+h1 {
+    color: #333333;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* This targets all paragraphs */
+p {
+    color: #666666;
+    font-size: 16px;
+    line-height: 1.6;
+}
