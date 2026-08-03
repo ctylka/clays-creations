@@ -8,7 +8,7 @@
 body, html {
     height: 100%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: black;
+    color: #000000;
     overflow-x: hidden;
 }
 
