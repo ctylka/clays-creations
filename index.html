@@ -3,35 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My First Website</title>
-    <!-- Link to an external CSS stylesheet -->
+    <title>Video Background Website</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <header>
-        <h1>Welcome to My Website</h1>
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+    <!-- Video Background Container -->
+    <div class="video-background">
+        <video autoplay loop muted playsinline id="bg-video">
+            <!-- Replace 'background.mp4' with your actual video file path -->
+            <source src="background.mp4" type="video/mp4">
+            Your browser does not support HTML5 video.
+        </video>
+    </div>
 
-    <main>
-        <section>
-            <h2>About This Site</h2>
-            <p>This is a simple paragraph describing the purpose of the web page.</p>
-        </section>
-    </main>
+    <!-- Website Content Layer -->
+    <div class="content-overlay">
+        <header>
+            <h1>Welcome to My Website</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
 
-    <footer>
-        <p>&copy; 2026 My Website</p>
-    </footer>
+        <main>
+            <section>
+                <h2>About This Site</h2>
+                <p>This is a simple paragraph describing the purpose of the web page over a beautiful background.</p>
+            </section>
+        </main>
 
-    <!-- Link to an external JavaScript file -->
-    <script src="script.js"></script>
+        <footer>
+            <p>&copy; 2026 My Website</p>
+        </footer>
+    </div>
+
 </body>
 </html>
